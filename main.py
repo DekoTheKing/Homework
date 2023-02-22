@@ -13,8 +13,7 @@ def div(a,b) : print("%.2f" % a,"/","%.2f" % b,"=","%.2f" % (a/b))
  
 
 while True : 
-    print("Select operation.\n" "1.Add\n" "2.Subtract\n" 
-      "3.Multiply\n" "4.Divide\n")
+    print("Select operation.\n" "1.Add\n" "2.Subtract\n" "3.Multiply\n" "4.Divide\n")
     print("Enter choice: (1/2/3/4):")
     NumChoice = int(input())
     if(NumChoice > 0 and NumChoice <=4) :
